@@ -2,7 +2,7 @@
 # Part II
 
 
-Let's say you are running the lock/unlock in a multi core machine. Now you want to let multiple threads to run lock() simultaneously. As we saw in part I, locking a node has multiple validations inside. Will doing lock on two nodes cause a race condition. If yes, how will you solve it. In short, how do make the lock() function thread safe?
+Let's say you are running the lock/unlock in a multi core machine. Now you want to let multiple threads to run lock() simultaneously. As we saw in part I, locking a node has multiple validations inside. While doing lock on two nodes cause a race condition. If yes, how will you solve it. In short, how do make the lock() function thread safe?
 
 - Multiple threads running it simultaneously shouldn't not affect the correctness.
 - Try to make the critical sections more granular. ie. don't create any big atomic/synchronized blocks that will make parallelism suffer.
