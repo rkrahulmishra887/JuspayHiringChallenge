@@ -9,7 +9,8 @@ We have to perform two operation on the tree:
 
 ### Lock
 To  perform lock operation on a node in tree, the following condition must be satisfied:
-> **1. Node should not have any locked children.8**
+> **1. Node should not have any locked children.**
+
 > **2. Node should not have any locked ancestor.**
 
 - If it satisfies two condition you should perform lock and return True

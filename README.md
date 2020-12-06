@@ -10,7 +10,7 @@
 - The problem was based on Locking and Unlocking a node in a tree.
 - [Part I](https://github.com/ajeeth-b/JuspayHiringChallenge/tree/master/solution/Part%20I) was to solve the problem statement.
 - [Part II](https://github.com/ajeeth-b/JuspayHiringChallenge/tree/master/solution/Part%20II) was to change the solution to run in multithread with small critical section and solve race condition in it.
-- I haved uploaded the solution as two part.
+- I haved uploaded the solution in two part.
 
 
 > <font size='3'>[Click here](https://medium.com/@ajeethsiva777) to know my personal experience on hackathon.</span>
