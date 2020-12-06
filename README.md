@@ -8,8 +8,8 @@
 ## <a name="hackathon"></a>Hackathon
 - In these two days they gave a problem to solve in two part.
 - The problem was based on Locking and Unlocking a node in a tree.
-- [Part I]() was to solve the problem statement.
-- [Part II]() was to change the solution to run in multithread with small critical section and solve race condition in it.
+- [Part I](https://github.com/ajeeth-b/JuspayHiringChallenge/tree/master/solution/Part%20I) was to solve the problem statement.
+- [Part II](https://github.com/ajeeth-b/JuspayHiringChallenge/tree/master/solution/Part%20II) was to change the solution to run in multithread with small critical section and solve race condition in it.
 - I haved uploaded the solution as two part.
 
 
