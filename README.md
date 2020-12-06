@@ -2,8 +2,8 @@
 
 - [Juspay](https://juspay.in/) is a payment based company.
 - Juspay came as on-campus recruitment.
-- I cleared two rounds of coding chelllenge based on algorithm and  data structure to get into final round (ie [Hackathon](#hackathon)).
-- Final round was like hackathon for two days where there was studenst and some working profession.
+- I cleared two rounds of coding chelllenge based on algorithm and  data structure to get into final round.
+- Final round was like hackathon for two days where there was studenst and some working profession as participent.
 
 ## <a name="hackathon"></a>Hackathon
 - In these two days they gave a problem to solve in two part.
