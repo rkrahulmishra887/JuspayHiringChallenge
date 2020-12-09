@@ -53,16 +53,17 @@ def lock(node, thread_lock):
 		parent_node = parent_node.getParent()
 
 	if locked_parent:
+
 		parent_node = node.getParent()
 		while parent_node != locked_parent:
 			with thread_lock:
 				parent_node.locked_child_count -= 1
 			parent_node = parent_node.getParent()
 
-	if locked_parent:
 		with thread_lock:
 			node.removeLock()
 		return False
+
 	return True
 
 thread_lock = Lock()
