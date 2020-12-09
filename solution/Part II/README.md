@@ -13,4 +13,5 @@ Let's say you are running the lock/unlock in a multi core machine. Now you want 
 - You can use an instruction called atomic to force only one thread to execute a block of code for an object reference.  `atomic(objRef) { <block of code> }` Note1: if objRef is different between two threads, they can still execute this block of code in parallel. Note2: atomic is same as synchronized keyword in java.
 - While it is easier to use atomic blocks, there is a way to solve this problem without using atomic! Don't worry about it now. If there is time, we will help you solve it that way too!
 
+
 We have to change only Lock operation to run in mulithreaded machine.
